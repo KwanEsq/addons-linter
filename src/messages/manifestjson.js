@@ -85,7 +85,8 @@ export const MANIFEST_UPDATE_URL = {
   code: 'MANIFEST_UPDATE_URL',
   message: _('"update_url" is not allowed.'),
   description: _(oneLine`"applications.gecko.update_url" is not allowed
-    for Mozilla-hosted add-ons.`),
+    for Mozilla-hosted add-ons. Lint with the "--self-hosted" argument if you
+    are hosting the add-on yourself.`),
   file: MANIFEST_JSON,
 };
 
